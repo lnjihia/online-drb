@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Recruiter Inquiry Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<!-- <div id="about" class="container-fluid">
+<div id="ourdrivers" class="container-fluid">
+<div id="qualifications" class="container-fluid">
+<div id="howitworks" class="container-fluid">
+<div id="contact" class="container-fluid"> -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+			</button>
+			<img src="images/aalogo.jpg" alt="AAK LOGO" style="width:50px;height:50px;border:0">
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#about">ABOUT </a></li>
+        <li><a href="#ourdrivers">OUR DRIVERS</a></li>
+				<li><a href="#qualifications">QUALIFICATIONS</a></li>
+        <li><a href="#howitworks">HOW IT WORKS</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</div>
+    <div id="slogan" class="row text-right">
+      <p><b><i>You Never Drive Alone!</i></b></p>
+    </div>	
+	</div>	
+</nav>
+
+<!-- Recruiter Profiling Page -->
+
+<div id="recruitermakeinquiry" class="container-fluid">
+      <br>
+      <br>
+      <h2>Elicit Our Services</h2>
+      <h4>Please fill in what you would require for a professional driver. We will be getting in touch with you soon.</h4>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <input id="worklocation" class="form-control" type="text" name="worklocation" placeholder="Enter Location of WorK" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <select id="recruitcategory" name="recruitcategory" required>
+            <option>- Driver Category –</option>
+            <option value="parttime">Public Driver</option>
+            <option value="fulltime">Personal Driver</option>
+            <option value="oncontract">Corporate Driver</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <select id="contractneed" name="contractneed" required>
+            <option>- Contract Type –</option>
+            <option value="parttime">Part-time Driver</option>
+            <option value="fulltime">Full-time Driver</option>
+            <option value="oncontract">Contractual Driver</option>
+            <option value="shortterm">Short Term Driver</option>
+            <option value="longterm">Long Term Driver</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <p>Do you have any more requirements for a driver that should be considered?</p>
+          <textarea id="preferences" class="form-control" id="preferences" name="preferences" class="requiredField" placeholder="Preferences and more information (Please enter ALL relevant details concerning staffing requirements)" rows="10"></textarea>
+        </div>  
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 form-group">
+          <!--<button id="btnSubmitInquiry" class="btn btn-default align-center" type="submit" name="submitinquiry">Submit Inquiry</button> -->
+          <a href="recruiterlanding.html" class="btn btn-default align-center" id="btnSubmitInquiry">Submit Inquiry</a> 
+          <a href="recruiterlanding.html" class="btn btn-default">Return to Profile Page</a>
+        </div>
+      <!-- On submit, direct to employer landing-->
+    </div>
+
+</body>
+</html>
+

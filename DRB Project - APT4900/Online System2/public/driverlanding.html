@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Driver Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<!-- <div id="about" class="container-fluid">
+<div id="ourdrivers" class="container-fluid">
+<div id="qualifications" class="container-fluid">
+<div id="howitworks" class="container-fluid">
+<div id="contact" class="container-fluid"> -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+			</button>
+			<img src="images/aalogo.jpg" alt="AAK LOGO" style="width:50px;height:50px;border:0">
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#about">ABOUT </a></li>
+        <li><a href="#ourdrivers">OUR DRIVERS</a></li>
+				<li><a href="#qualifications">QUALIFICATIONS</a></li>
+        <li><a href="#howitworks">HOW IT WORKS</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</div>
+    <div id="slogan" class="row text-right">
+      <p><b><i>You Never Drive Alone!</i></b></p>
+    </div>	
+	</div>	
+</nav>
+
+<!-- Driver Landing Page -->
+
+<!-- Page Container -->
+<br>
+<br>
+<br>
+<br>
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="images/profileplaceholder.png" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+          	<br>
+          	<br>
+          	<br>
+          	<br>
+            <h2>Driver</h2>
+          </div>
+        </div>
+        <hr>
+        <div class="w3-container">
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>[Driver Location]</p> <!-- Location of driver -->
+          <p><i class="fa fa-globe fa-fw w3-margin-right w3-large w3-text-teal"></i>[Driver Nationality]</p> <!--Driver nationality-->
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>[Driver Email]</p> <!-- Email of recruiter/driver -->
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>[Driver Phone]</p> <!-- Email of recruiter/driver -->
+          <br>
+          <br>
+        </div>
+      </div>
+      <br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="container w3-card w3-margin-bottom">
+        <h2 class="container"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Driver Profile</h2>
+        <div class="container">
+          <h5><b>Gender</b></h5>
+          <p>[Driver Gender]</p>
+          <hr>
+        </div>
+        <div class="container">
+          <h5><b>Driver Location</b></h5>
+          <p>[Location of Work/Residence]</p>
+          <hr>
+        </div>
+        <div class="container">
+          <h5><b>Driver Category</b></h5>
+          <p>[Driver Category]</p>
+          <hr>
+        </div>
+        <div class="container">
+          <h5><b>Contract Type</b></h5>
+          <p>[Contract Type]</p>
+          <hr>
+        </div>
+        <div class="container">
+        	<div class="row">
+        		<div class="col-sm-4 form-group">
+        			<h5><b>Driver Documentation</b></h5>
+          			<button id="btnshowID" class="btn btn-defaul align-center" type="submit" name="showID">[Copy of ID]</button>
+          			<button id="btnshowCV" class="btn btn-defaul align-center" type="submit" name="showCV">[Copy of Cover Letter]</button>
+          			<button id="btnshowDL" class="btn btn-defaul align-center" type="submit" name="showDL">[Copy of Valid Driving License]</button>
+          			<button id="btwshowletter" class="btn btn-defaul align-center" type="submit" name="showletter">[Copy of Recommendation Letter]</button>
+        		</div>
+        	</div>
+          <hr>
+        </div>
+        <!-- Give driver a chance to update his profile) -->
+      </div>
+
+      <div class="container w3-card w3-margin-bottom">
+        <h2 class="container"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Recruiter Matches</h2>
+        <div class="container">
+          <p>:( No new recommendations || [n] new recommendations</p>
+          <!-- Will the we give driver opportunity to view profile of the recruiter as they wait for match status? -->
+          <hr>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>  
+  <!-- End Grid -->
+  </div>  
+  <!-- End Page Container -->
+</div>
+
+</body>
+</html>

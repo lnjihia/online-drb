@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register - Driver Recruitment Bureau</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<!-- <div id="about" class="container-fluid">
+<div id="ourdrivers" class="container-fluid">
+<div id="qualifications" class="container-fluid">
+<div id="howitworks" class="container-fluid">
+<div id="contact" class="container-fluid"> -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+			</button>
+			<img src="images/aalogo.jpg" alt="AAK LOGO" style="width:50px;height:50px;border:0">
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#about">ABOUT </a></li>
+        <li><a href="#ourdrivers">OUR DRIVERS</a></li>
+				<li><a href="#qualifications">QUALIFICATIONS</a></li>
+        <li><a href="#howitworks">HOW IT WORKS</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</div>
+    <div id="slogan" class="row text-right">
+      <p><b><i>You Never Drive Alone!</i></b></p>
+    </div>	
+	</div>	
+</nav>
+
+<!-- Register/Login Page -->
+
+<div id="registrationpage" class="container-fluid">
+      <br>
+      <br>
+      <h1>Register and become part of the bureau!</h1>
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <hr>
+          <p><b>Login Details</b></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <input id="txtEmail" class="form-control" type="text" name="email" placeholder="Enter Email Address" required>
+        </div>
+      </div>  
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <input id="txtPassword" class="form-control" type="password" name="password" name="password" placeholder="Enter password" required="">
+        </div>
+      </div> 
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <hr>
+          <p><b>User details</b></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <input id="surname" class="form-control" type="text" name="usersname" placeholder="Enter Surname" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <input id="othernames" class="form-control" type="text" name="useroname" placeholder="Enter Other Names" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <select id="usertype" name="usertype" onchange="showDiv('recruitertype', this)" required>
+            <option>– Which are you? –</option>
+            <option value="driver">Driver</option>
+            <option value="recruiter">Recruiter</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <select id="recruitertype" name="recruitertype" onchange="showDiv2('companylogo', this)" required>
+            <option>– Type of recruiter? –</option>
+            <option value="individual">Individual</option>
+            <option value="company">Company</option>
+          </select>
+        </div>
+      </div> 
+     
+
+      <!-- If company, upload company logo -->
+        
+        <div class="row" id="companylogo">
+        <div class="col-sm-8 form-group">
+          <p>Upload company logo picture:<p><input  type="file" name="companylogo" accept="image/*">
+        </div>
+      </div>
+     
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <input id="nationality" class="form-control" type="text" name="nationality" placeholder="Enter Nationality" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <input id="phone"class="form-control" type="text" name="phone" placeholder="Enter Telephone Number" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <button id="btnSignUp" class="btn btn-default" type="submit" name="Register">Register</button>
+          <button class="btn btn-default " type="cancel" name="cancel">Cancel</button>
+          <!--<a href="index.html" class="btn btn-default" name="cancel">Cancel</a> When someone cancels, they can be taken to the landing or they can be taken back to index.html-->
+        </div>
+     </div>
+     
+      <div class="row">
+        <div class="col-sm-8 form-group">
+          <p>By signing up, you agree to our <a href="privacypolicy.html"> Privacy Policy</a></p>
+          <p>Already have an account? <a href="login.html">Sign in here</a></p>
+        </div>
+      </div>  
+   </div>
+  </div> 
+</body>
+
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBkkA0-V-4Np_Ij_PQci1l2A6wDubl6Qtc",
+    authDomain: "my-awesome-project-61389.firebaseapp.com",
+    databaseURL: "https://my-awesome-project-61389.firebaseio.com",
+    projectId: "my-awesome-project-61389",
+    storageBucket: "my-awesome-project-61389.appspot.com",
+    messagingSenderId: "1008861419190",
+    appId: "1:1008861419190:web:4f88d4465a47694d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="scripts.js" type="text/javascript"></script>
+
+</html>

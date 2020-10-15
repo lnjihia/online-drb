@@ -1,0 +1,29 @@
+[debug] [2019-08-09T08:45:29.654Z] ----------------------------------------------------------------------
+[debug] [2019-08-09T08:45:29.656Z] Command:       /usr/local/Cellar/node/12.6.0/bin/node /usr/local/bin/firebase serve
+[debug] [2019-08-09T08:45:29.657Z] CLI Version:   7.2.2
+[debug] [2019-08-09T08:45:29.657Z] Platform:      darwin
+[debug] [2019-08-09T08:45:29.657Z] Node Version:  v12.6.0
+[debug] [2019-08-09T08:45:29.657Z] Time:          Fri Aug 09 2019 11:45:29 GMT+0300 (East Africa Time)
+[debug] [2019-08-09T08:45:29.657Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-09T08:45:29.663Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-09T08:45:29.664Z] > authorizing via signed-in user
+[debug] [2019-08-09T08:45:29.664Z] [iam] checking project my-awesome-project-61389 for permissions ["firebase.projects.get"]
+[debug] [2019-08-09T08:45:29.665Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-08-09T08:45:29.666Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-08-09T08:45:30.472Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-09T08:45:30.490Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/my-awesome-project-61389:testIamPermissions  
+
+[debug] [2019-08-09T08:45:34.849Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-09T08:45:34.851Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-awesome-project-61389  
+ 
+[debug] [2019-08-09T08:45:35.664Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/lnjihia/Documents/DRB Project - APT4900/Online System2'...
+[info] 
+[debug] [2019-08-09T08:45:35.668Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-awesome-project-61389/webApps/-/config  
+ 
+[debug] [2019-08-09T08:45:36.385Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000

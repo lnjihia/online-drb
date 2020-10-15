@@ -1,0 +1,25 @@
+[debug] [2019-08-05T10:57:02.697Z] ----------------------------------------------------------------------
+[debug] [2019-08-05T10:57:02.699Z] Command:       /usr/local/Cellar/node/12.6.0/bin/node /usr/local/bin/firebase serve
+[debug] [2019-08-05T10:57:02.699Z] CLI Version:   7.2.2
+[debug] [2019-08-05T10:57:02.699Z] Platform:      darwin
+[debug] [2019-08-05T10:57:02.699Z] Node Version:  v12.6.0
+[debug] [2019-08-05T10:57:02.700Z] Time:          Mon Aug 05 2019 13:57:02 GMT+0300 (East Africa Time)
+[debug] [2019-08-05T10:57:02.700Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-05T10:57:02.707Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-05T10:57:02.707Z] > authorizing via signed-in user
+[debug] [2019-08-05T10:57:02.708Z] [iam] checking project my-awesome-project-61389 for permissions ["firebase.projects.get"]
+[debug] [2019-08-05T10:57:02.709Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/my-awesome-project-61389:testIamPermissions  
+
+[debug] [2019-08-05T10:57:04.679Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-05T10:57:04.682Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-awesome-project-61389  
+ 
+[debug] [2019-08-05T10:57:05.204Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/lnjihia'...
+[info] 
+[debug] [2019-08-05T10:57:05.209Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-awesome-project-61389/webApps/-/config  
+ 
+[debug] [2019-08-05T10:57:05.727Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
